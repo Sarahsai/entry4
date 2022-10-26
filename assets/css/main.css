@@ -1,0 +1,45 @@
+body {
+  background-color:  #ADD8E6;
+  font-family:  verdana;
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color:green;
+    color:  white;
+  }
+}
+@media (max-height: 650px) {
+  body {
+    background-color: pink;
+  }
+  body {
+    font-size: 16px;
+  }
+  @media (min-width: 768px) {
+    body {
+      font-size: 60px;
+    }
+    @media (min-width: 992px) {
+  body {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 80px;
+  }
+}
+
+h1{
+  text-align: center;
+  border: 3px solid green;
+}
+
+h3{
+  margin: auto;
+width: 50%;
+border: 3px solid blue;
+padding: 10px;
+}
